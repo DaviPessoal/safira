@@ -1,0 +1,75 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1034A6;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #1034A6;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.comeco {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.comeco img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.comeco button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #87CEEB;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.comeco button:hover {
+    background-color: #0b2d8a;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #1034A6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+}
+
+.popup img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #1034A6;
+}
